@@ -1,0 +1,5 @@
+my_dict = {3:"Apple", 1:"Mango", 2:"Banana"}
+
+sorted_dict = dict(sorted(my_dict.items()))
+
+print("Sorted Dictionary:",sorted_dict)
