@@ -1,0 +1,8 @@
+student = {
+      "student1":{
+           "name":"Rahul",
+           "age":18
+           }
+}
+
+print("Name :", student["student1"]["name"]
