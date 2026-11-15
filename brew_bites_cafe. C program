@@ -1,0 +1,76 @@
+#include <stdio.h>
+
+int main()
+{
+    int choice, quantity, n;
+    int total = 0, price, amount;
+
+    printf("================================\n");
+    printf("       BREW & BITES CAFE\n");
+    printf("================================\n");
+
+    printf("\n----------- MENU -----------\n");
+    printf("1. Cappuccino        Rs. 120\n");
+    printf("2. Cold Coffee       Rs. 100\n");
+    printf("3. Veg Sandwich      Rs. 80\n");
+    printf("4. French Fries      Rs. 70\n");
+    printf("5. Chocolate Brownie Rs. 90\n");
+    printf("6. Masala Tea        Rs. 40\n");
+    printf("----------------------------\n");
+
+    printf("\nEnter number of items: ");
+    scanf("%d", &n);
+
+    for(int i = 0; i < n; i++)
+    {
+        printf("\nEnter item number: ");
+        scanf("%d", &choice);
+
+        printf("Enter quantity: ");
+        scanf("%d", &quantity);
+
+        switch(choice)
+        {
+            case 1:
+                price = 120;
+                break;
+
+            case 2:
+                price = 100;
+                break;
+
+            case 3:
+                price = 80;
+                break;
+
+            case 4:
+                price = 70;
+                break;
+
+            case 5:
+                price = 90;
+                break;
+
+            case 6:
+                price = 40;
+                break;
+
+            default:
+                printf("Invalid item number!\n");
+                continue;
+        }
+
+        amount = price * quantity;
+        total = total + amount;
+    }
+
+    printf("\n================================\n");
+    printf("          FINAL INVOICE\n");
+    printf("================================\n");
+    printf("Total Amount: Rs. %d\n", total);
+    printf("================================\n");
+    printf("      THANK YOU! VISIT AGAIN\n");
+    printf("================================\n");
+
+    return 0;
+}
