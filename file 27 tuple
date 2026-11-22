@@ -1,0 +1,5 @@
+my_tuple = (10, 20, 30, 10, 40)
+
+count = my_tuple.count(10)
+
+print("Number of occurrence:",count)
