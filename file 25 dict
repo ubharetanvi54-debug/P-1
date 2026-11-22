@@ -1,0 +1,7 @@
+my_dict = {"name": "Rahul", "age": 18, "city": "Mumbai"}
+
+my_dict.pop("age")
+
+print("Dictionary:", my_dict)
+print("Key-Values Pairs:", my_dict.items())
+print("Name exists:", "name" in my_dict)
