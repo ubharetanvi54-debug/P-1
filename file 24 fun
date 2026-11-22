@@ -1,0 +1,9 @@
+global_var = 10
+
+def chnage():
+    global global_var
+    global_var = 20
+
+change()
+
+print("Global Variable:", global_var)
