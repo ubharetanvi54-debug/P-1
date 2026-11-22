@@ -1,0 +1,5 @@
+def demo(name, rollno):
+     print("Name:", name)
+     print("Roll Number:", rollno)
+
+demo("Rahul", 101)
