@@ -1,0 +1,9 @@
+def calculation(a,b):
+    add = a + b
+    sub = a - b
+    return add, sub
+
+x, y = calculation(20,10)
+
+print("Addition:",x)
+print("Subtraction:",y)
