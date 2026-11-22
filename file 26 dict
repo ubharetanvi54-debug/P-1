@@ -1,0 +1,8 @@
+my_dict = {"name": "Rahul", "age": 18}
+
+my_dict["city"] = "Mumbai"
+
+my_dict["age"] = 19
+
+print("Age:", my_dict["age"])
+print("Dictionary:",my_dict)
