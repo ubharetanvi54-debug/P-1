@@ -1,0 +1,6 @@
+def demo():
+   a = 10
+   b = 20
+   c = 30
+
+print("Number of local variables:",demo._code_.co_nlocals)
