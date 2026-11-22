@@ -1,0 +1,8 @@
+def distinct_list(numbers):
+    new_list = []
+    for i in numbers:
+         if i not in new_list:
+             new_list.append(i)
+    return new_list
+
+print("Distinct List:",distinct_list([1,2,2,3,4,4,5]))
